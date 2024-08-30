@@ -23,7 +23,7 @@
                 <input type="password" class="input @error('password') ring-red-500 @enderror" placeholder="Password" name="password">
                 @error('password')
                     <p class="error absolute top-[-15]">{{ $message }}</p>
-                @enderror
+                @enderror 
             </div>
             <div class="mb-5 relative">
                 <label for="password_confirmation" class="font-bold">Confirm Password:</label>
